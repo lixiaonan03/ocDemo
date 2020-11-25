@@ -49,6 +49,7 @@
 }
 
 
+
 //点击事件的
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     WWlxnTestCell *cell = (WWlxnTestCell *)[tableView cellForRowAtIndexPath:indexPath];
