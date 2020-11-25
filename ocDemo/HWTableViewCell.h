@@ -39,7 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
   （3）id可以用来定义变量, 可以作为返回值, 可以作为形参 instancetype只能用于作为返回值
  */
 + (instancetype)cellWithTableView:(UITableView *)tableview;
-
 @end
 
 NS_ASSUME_NONNULL_END
