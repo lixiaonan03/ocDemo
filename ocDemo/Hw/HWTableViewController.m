@@ -48,6 +48,7 @@
     [super viewDidLoad];
     NSLog(@"viewDidLoad====");
     
+    //直接使用不好使
     self.navigationItem.title = @"tableView界面的";
     
     self.tableView.tableHeaderView = [[HWHeaderView alloc] initWithFrame:CGRectMake(0,0, self.view.frame.size.width, 100)];
