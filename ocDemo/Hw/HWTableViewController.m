@@ -47,6 +47,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"viewDidLoad====");
+    
+    self.navigationItem.title = @"tableView界面的";
+    
     self.tableView.tableHeaderView = [[HWHeaderView alloc] initWithFrame:CGRectMake(0,0, self.view.frame.size.width, 100)];
     
     //获取数据的

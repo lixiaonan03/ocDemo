@@ -59,7 +59,7 @@
     //另一种方式启动的
     [self presentViewController:detailView animated:YES completion:nil];
     // 通过navigationController 方式启动的（需要controller 是个navigationController）
-//    [self.navigationController pushViewController:detailView animated:NO];
+//    [self.navigationController pushViewController:detailView animated:YES];
 }
 
 
